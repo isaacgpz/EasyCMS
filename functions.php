@@ -11,9 +11,8 @@ function applybackup(){
 			$query.=";";
 			echo $query."<br/>";
 		}*/
-		$conexion=connect();
+                $query = qsql($sql);
 		$res=doBackup($querys,$conexion);
-		$conexion->close();
 		
 		if($res == "ok"){
 			$_SESSION['success']="DataBase restored correctly";
