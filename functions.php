@@ -276,4 +276,7 @@ function pillacampos($taula){
 	return $infocamps;
 }
 
+function pepe($a,$b){
+    return $a+$b;
+}
 ?>
