@@ -1,6 +1,6 @@
 <?php 
 
-function applybc(){
+function aplicarCambios(){
 		
 		$dir="../backup";
 	 	$fitxer=$dir."/".$_SESSION["applybackup"];
